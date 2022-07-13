@@ -19,7 +19,6 @@ class MainActivity : AppCompatActivity() {
         if (actionBar != null){
             actionBar.hide()
         }
-
     }
 
     override fun onResume() {
@@ -48,7 +47,6 @@ class MainActivity : AppCompatActivity() {
     private fun getNumber2() : Double?{
         return binding.number2Edit.text.toString().trim().toDoubleOrNull()
     }
-
     private fun sum(){
         val number1 = getNumber1()
         val number2 = getNumber2()
